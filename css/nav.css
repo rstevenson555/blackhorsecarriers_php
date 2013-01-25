@@ -1,0 +1,221 @@
+.drop-columns{
+	width:100%;
+	overflow:hidden;
+	/*background:url(../img/bg-three-column-drop.gif) repeat-y;*/
+	padding:0 0 0px;
+}
+.either{background:url(/images/sep-drop-columns.gif) repeat-y 148px 0;}
+
+.drop-columns .frame{
+	float:left;
+	width:149px !important;
+	padding:0 !important;
+	background:none !important;
+}
+
+.column-3 .drop-heading {
+margin-bottom:-13px;
+}
+
+.drop-heading{
+	/*border-bottom:1px solid #ccc;*/
+	padding:10px 10px 8px 10px;
+	overflow:hidden;
+	/*height:1%;*/
+}
+.drop-heading h3{
+	margin:0;
+	color:#000;
+	font-size:12px;
+}
+.nav-drop-list{
+	margin:0px;
+	padding:0 0 0 0px;
+	list-style-type:none;
+	font-family: Arial, Sans-Serif;
+	font-size:12px;
+}
+.nav-drop-list li{
+ background:#fff!important;
+ white-space:nowrap;
+	padding:0 0 0 10px;
+	/* background:url(../img/bullet-nav-drop-list.gif) no-repeat 0 8px !important; */
+	line-height:19px;
+	margin:0;
+	float:none;
+	position:relative;
+	z-index:100000;
+	height:1%;
+ text-overflow:ellipsis;
+ overflow:hidden;
+ width:138px; 
+ border-bottom:1px dotted #ccc;
+}
+ .nav-drop-list li.last {
+ padding-bottom:5px;
+ border-bottom:1px solid #ccc;
+ }
+
+.nav-drop a{
+	display:block;
+	padding:0 !important;
+	margin:0;
+	float:none;
+	background:none !important;
+	text-transform:none;
+}
+
+.nav-drop-list a {
+color:#069;
+margin-left:-10px;
+padding-left:10px!important;
+height:20px!important;
+}
+
+
+
+.nav-news{
+	margin:0;
+	padding:0px;
+	list-style:none;
+	/*width:325px;*/
+	overflow:hidden;
+	width:325px;
+}
+
+.nav-news a {height:auto!important;}
+
+.nav-news li{
+	/*width:100%;*/
+	overflow:hidden;
+	padding:15px 0px 10px 10px;
+	border-bottom:1px dotted #ccc;
+	background:none;
+}
+.nav-news li img{
+/*	border:1px solid #444647;
+	display:block; */
+}
+.nav-news div {
+	margin:0px;
+ padding:0 10px 0 0;
+}
+.nav-news div a{color:#0064a0; margin:0px; padding:0px; display:inline;}
+.nav-news div a:hover{text-decoration:underline !important;background-color:#CCFFFF !important;}
+
+.time{
+	font-style:normal;
+	color:#828282;
+	font-size:10px;
+ padding-top:5px;
+}
+.time a{color:#ca8500;}
+
+.time a:hover{text-decoration:underline !important;}
+
+div.more{
+	font:11px Arial, sans-serif;
+ padding:10px 0 10px 0;
+}
+.nav-drop div.more a {color:#000!important; margin:10px 0 0 10px!important; display:inline;}
+.nav-drop div.more a:hover{text-decoration:underline !important;}
+.category-list{
+	width:100%;
+	overflow:hidden;
+}
+.category-list div{
+	float:left;
+	/*width:147px;*/
+	word-spacing:-1px;
+}
+.category-list ul{/*margin-bottom:5px;*/}
+
+/* CUSTOMIZE SIZES HERE */
+/* ******************** */
+.nav-drop{
+	/*width:515px!important; */
+	width:512px!important;
+    z-index: 10!important;
+}
+.shift-drop {
+    /*left:255px; */
+    left:335px;
+}
+
+.nav-drop-list a:hover{background-color:#ccffff!important;}
+.nav-drop .column-1{width:179px!important; }
+.nav-drop .column-2{width:177px!important;}
+.nav-drop .column-3{width:325px!important; }
+.nav-drop .wide{width:495px!important; }
+
+/* narrow drop-down */
+.nav-drop .narrow{width:395px!important; }
+
+.narrow{
+    left:255px!important;
+    width:395px!important;
+}
+
+.nav-drop .nc{
+	width:412px;
+	overflow:hidden;
+	background:url(/images/bg-drop-strip.png) repeat-y;
+	padding:0 0 0 3px;
+}
+.nav-news-narrow {
+    width:395px !important;
+}
+/* narrow drop-down */
+
+/* make this 1 less than .column-1 width */
+.either{background:url(/images/sep-drop-columns.gif) repeat-y 178px 0;}
+/* make this 11 less than .column-1 width */
+.nav-drop-list li {
+    width:168px!important;
+    left:0px;
+ }
+.nav-news li {
+    height:95px; /* CHANGE */
+    }
+
+.frame {
+    /*width:760px !important; */
+    width:100% !important;
+}
+
+.nav-news-wide {
+    width:495px !important;
+}
+
+.map {
+    background:url(/images/map_background.jpg);
+} 
+/* ******************** */
+/* CUSTOMIZE SIZES HERE */
+
+#normalbody {
+    /*background: none repeat scroll 0 0 #B3B38E; */
+    background: none repeat scroll 0 0 #000000;
+}
+.city {
+
+}
+.locchoices div {
+	margin-bottom: 5px !important;
+	}
+
+.locchoices .loctitle {
+	float:left;font-weight:bold;margin-bottom:5px;width:400px;
+}
+.locchoices .locright-column {
+	display:inline-block;float:right;width:110px;;
+}
+.locchoices .locleft-column {
+	float:left;width:110px;
+}
+.locchoices .locleft-column div {
+	width:80px;
+}
+.locchoices .locleft-column div a {
+	width:70px;
+}

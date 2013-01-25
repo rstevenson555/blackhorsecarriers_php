@@ -1,0 +1,142 @@
+/**************************************************************
+
+	Image Menu
+	v 2.2
+
+**************************************************************/
+
+#imageMenu {
+	position: float;
+    margin-left:5px;
+    text-align:left;
+	height: 174px; 
+	overflow: hidden;
+    text-align: left;
+} 
+
+
+#imageMenu ul {
+	list-style: none;
+	margin: 0px;
+	display: inline;
+	height: 200px;
+	/*width: 1900px;  */
+	/*width: 1300px; */
+	
+    /*text-align: center; */
+	}
+
+#imageMenu ul li {
+	float: left;
+}
+
+#imageMenu ul li a {
+	text-indent: -1000px;
+	background:#FFFFFF none repeat scroll 0%;
+	border-right: 2px solid #fff;
+	cursor:pointer;
+	display:block;
+	overflow:hidden;
+	/*width:98px; */
+	width:98px; 
+	height: 200px;
+}
+
+#imageMenu ul li.home a {
+	background: url(./homeMenu.JPG) repeat scroll 0%;
+}
+#imageMenu ul li.general a {
+	background: url(./generalOfficesMenu.JPG) repeat scroll 0%;
+}
+#imageMenu ul li.history a {
+	background: url(./historyMenu.JPG) repeat scroll 0%;
+}
+#imageMenu ul li.application a {
+	background: url(./applicationMenu.JPG) repeat scroll 0%;
+}
+#imageMenu ul li.fleetreplacement a {
+	background: url(./fleetMenu.JPG) repeat scroll 0%;
+}
+#imageMenu ul li.leasing a {
+	background: url(./leasingMenu.JPG) repeat scroll 0%;
+}
+#imageMenu ul li.drivingforce a {
+	background: url(./drivingForceMenu.JPG) repeat scroll 0%;
+}
+#imageMenu ul li.news a {
+	background: url(./newsMenu.jpg) repeat scroll 0%;
+}
+
+
+
+.jimgMenu {
+	position: float;
+    margin-left:5px;
+    text-align:left;
+	height: 174px; 
+	overflow: hidden;
+    text-align: left;
+} 
+
+
+.jimgMenu ul {
+	list-style: none;
+	margin: 0px;
+	display: inline;
+	height: 200px;
+	/*width: 1900px;  */
+	/*width: 1300px; */
+	
+    /*text-align: center; */
+	}
+
+.jimgMenu ul li {
+	float: left;
+}
+
+.jimgMenu ul li a {
+	text-indent: -1000px;
+	background:#FFFFFF none repeat scroll 0%;
+	border-right: 2px solid #fff;
+	cursor:pointer;
+	display:block;
+	overflow:hidden;
+	/*width:98px; */
+    /* initial width of each menu */
+	width:95px; 
+	height: 200px;
+}
+
+.jimgMenu ul li.home a {
+	background: url(./homeMenu.JPG) repeat scroll 0%;
+}
+.jimgMenu ul li.general a {
+	background: url(./generalOfficesMenu.JPG) repeat scroll 0%;
+}
+.jimgMenu ul li.history a {
+	background: url(./historyMenu.JPG) repeat scroll 0%;
+}
+.jimgMenu ul li.application a {
+	background: url(./applicationMenu.JPG) repeat scroll 0%;
+}
+.jimgMenu ul li.fleetreplacement a {
+	background: url(./fleetMenu.JPG) repeat scroll 0%;
+}
+.jimgMenu ul li.leasing a {
+	background: url(./leasingMenu.JPG) repeat scroll 0%;
+}
+.jimgMenu ul li.drivingforce a {
+	background: url(./drivingForceMenu.JPG) repeat scroll 0%;
+}
+.jimgMenu ul li.news a {
+	background: url(./newsMenu.jpg) repeat scroll 0%;
+}
+
+
+
+.clear {
+	clear: both;
+}
+
+/*************************************************************/
+

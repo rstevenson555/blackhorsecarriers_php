@@ -1,0 +1,304 @@
+#normalbody {
+    padding:0px;
+    margin:0px;
+    color:#000000;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    /* background-color:#FFFFFF; */
+    /*background-image:url(bgx207.gif);  */
+    /* background-repeat:repeat-x; */
+    background: #DADADA none repeat scroll 0 0;
+}
+
+#normalbodynobackground {
+    padding:0px;
+    margin:0px;
+    color:#000000;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    /* background-color:#FFFFFF; */
+    /*background-image:url(bg.gif); 
+    background-repeat:repeat-x; */
+}
+
+#logo {
+    border: 0px;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+
+#headingimage {
+    border: 0px;
+    margin-top: 10px;
+}
+
+a:link, a:visited, a:active {
+    background: transparent none repeat scroll 0%;
+    /*color: #666666; */
+    color: #000000; 
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    background: transparent none repeat scroll 0%;
+    color: #000000;
+    /*background-color: #666666; */
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#contain {
+    min-width: 675px; 
+    border-style: solid; 
+    background: #FEE;
+    margin: 1em; padding: 0.5em 0;
+}
+#column {
+    background: #EEE; text-align: center;
+}
+#logoheader {
+    white-space: nowrap; 
+    float: left; 
+    background-color: transparent; width: 20%;
+}
+
+page_wrapper {
+    background:#FFFFFF none repeat scroll 0%;
+#    border:8px solid #FFFFFF;
+#    margin-left:auto;
+#    margin-right:auto;
+#    text-align:left;
+#    width:98%;
+}
+
+#header_wrapper {
+    #background:transparent url(images/menu_bg.gif) repeat-x scroll left bottom;
+    #background:transparent repeat-x scroll left bottom;
+    height:180px;
+    /*margin:0pt;*/
+        margin-right:auto;
+    margin-left:auto;
+    width:800px;
+
+}
+#header_wrapper_natural {
+    #background:transparent url(images/menu_bg.gif) repeat-x scroll left bottom;
+    #background:transparent repeat-x scroll left bottom;
+    height:40px;
+    margin:0pt;
+    padding:0pt;
+}
+#header {
+    background-attachment:scroll;
+    background-color:transparent;
+    background-position:right top;
+    background-repeat:no-repeat;
+    /*height:365px; */
+    height:140px;
+    margin-left:20px;
+    margin-top:10px;
+    /* margin:0pt; */
+    padding:0px;
+}
+#header h1 {
+    color:#FFFFFF;
+    font-family:verdana,arial,helvetica,sans-serif;
+    font-size:20px;
+    letter-spacing:-1px;
+    margin:0pt;
+}
+
+#navlist {
+    /* border-bottom:1px solid #636363; */
+    font-family:Verdana,sans-serif;
+    font-size:12px;
+    font-size-adjust:none;
+    font-stretch:normal;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:bold;
+    line-height:normal;
+    margin-bottom:0pt;
+    margin-left:0pt;
+    margin-top:35px;
+    padding:0px 0pt;
+    text-align:left;
+    white-space: nowrap;
+}
+#navlist li {
+    display:inline;
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+    margin:0pt;
+}
+#navlist li a {
+    /* background:#919191 url(images/tab_bg.gif) repeat-x scroll left bottom; */
+
+    /*border-left:1px solid #606060;
+    border-right:1px solid #636363;
+    border-style:solid solid none; */
+    border-style: outset;
+
+    /* border-top:1px solid #606060; */
+    border-width:1px; 
+    color:#000000;
+    /*color:#F1F6FE; */
+    /* opacity: 0.75; */
+    margin-left:0px;
+    padding:5 15px;
+    text-decoration:none;
+}
+#navlist li a:link {
+    /*color:#F1F6FE; */
+    *color:#000000; 
+}
+#navlist li a:visited {
+    /*color:#F1F6FE; */
+    color:#000000; 
+}
+#navlist li a:hover {
+    background:#737373 none repeat scroll 0%; 
+    border-color:#454545;
+    color:#FFFFFF;
+    text-decoration:underline;
+}
+#navlist li a#current {
+    background:#FFFFFF none repeat scroll 0%;
+    border-bottom:1px solid #FFFFFF;
+    color:#000000;
+}
+
+#main {
+    background:white;
+    margin-right:auto;
+    margin-left:auto;
+    width:800px;
+    padding-left:10px;
+    padding-right:10px;
+    
+} 
+
+.simple {
+    /*margin-left:35pt;
+    margin-right:35pt; */
+}
+
+/* Scrollable Content Height */
+.scrollContent {
+    /*height:200px; constraint-size */
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+
+.scrollContent tr {
+    height: auto;
+    white-space: nowrap;
+}
+
+/* Prevent Mozilla scrollbar from hiding right-most cell content */
+.scrollContent tr td:last-child {
+    padding-right: 20px;
+}
+
+/* Fixed Header Height */
+.fixedHeader tr {
+    position: relative;
+    height: auto;
+}
+
+/* Put border around entire table */
+.tableContainer {
+    border: 1px solid #7DA87D;
+}
+
+/* Table Header formatting */
+.headerFormat {
+    background-color: white;
+    color: #FFFFFF;
+    margin: 3px;
+    padding: 1px;
+    /*white-space: nowrap; */
+    font-family:verdana,arial,helvetica,sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.headerFormat tr td {
+    border: 1px solid #000000;
+    background-color: #7DA87D;
+    white-space: wrap;
+}
+
+/* Table Body (Scrollable Content) formatting */
+.bodyFormat tr td {
+	color: #000000;
+	margin: 3px;
+	padding: 1px;
+	border: 0px none;
+	font-family: verdana,arial,Helvetica,sans-serif;
+	font-size: 12px;
+}
+
+.headingRow {
+    margin: 3px;
+    padding: 1px;
+    font-weight: bold;
+  background-color: #7DA87D;
+  color: #FFFFFF;
+  font-family: verdana,arial,Helvetica,sans-serif;
+  font-size: 13px;
+}
+
+/* Use to set different color for alternating rows */
+.alternateRow {
+  background-color: #E0F1E0;
+  font-family: verdana,arial,Helvetica,sans-serif;
+  font-size: 12px;
+}
+
+.standardRow {
+  background-color: #FFFFFF;
+}
+
+/* IE Specific Style addition to constrain table from automatically growing in height */
+.TableContainer {
+ /*height: 161px;  */
+ overflow-x:hidden;
+ overflow-y:auto;
+}
+
+.articleText {
+  /* color:#999999; */
+  color:#000000;
+  font-family:verdana,arial,helvetica,sans-serif;
+  font-size:12px;
+  font-weight:normal;
+  text-align:left;
+  text-decoration:none;
+}
+
+.articleTextItalic {
+  /* color:#999999; */
+  color:#000000;
+  font-family:verdana,arial,helvetica,sans-serif;
+  font-size:12px;
+  font-weight:normal;
+  font-style:italic;
+  text-align:left;
+  text-decoration:none;
+}
+
+.statelayout {
+  font-family:verdana,arial,helvetica,sans-serif;
+  width:100%;
+  height:628px;
+}
+
+.loadtable {
+  font-family:verdana,arial,helvetica,sans-serif;
+  width:100%;
+  border: 1px solid black;
+}
