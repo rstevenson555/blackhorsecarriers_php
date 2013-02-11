@@ -284,10 +284,10 @@
                                             <li>
                                                 <div>
                                                     <!--<a href="http://www.blackhorsecarriers.com/bhcnews.php">Gerry Niedert Accepts Recognition</a>-->
-                                                    <a href="http://www.blackhorsecarriers.com/schneider.php">Black Horse Carriers Accepts Recognition</a>
+                                                    <a href="http://www.blackhorsecarriers.com/schneider.php">Black Horse Carriers Accepts Award</a>
                                                 </div>
                                                 <!--<div>Gerry Niedert accepts 2009 Carrier of the Year Award from Doug Frank, General Manager of Schneider Logistics, Inc. Shared Services Div. </div>-->
-                                                <div>2012 Carrier of the Year Award</div>
+                                                <div>2012 Carrier of the Year</div>
                                             </li>
                                         </ul>
 

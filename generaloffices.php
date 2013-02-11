@@ -109,13 +109,15 @@
                                                     <font style="font-weight: bold;">Executive VP / General Mgr Automotive Group</font>
                                                     <br/><span>VP Operations – Automotive Group</span>
                                                     <br/><span>Area Manager</span>
-                                                    <br/><span>Area Manager</span>
+                                                   <!-- <br/><span>Area Manager</span> -->
                                                 </td>
                                                 <td style="vertical-align: top;">
                                                     <font style="font-weight:bold;">630-580-5172</font>
                                                     <br/>630-452-5277
-                                                    <br/>815-467-2107
                                                     <br/>904-741-4057
+
+                                                   <!-- <br/>815-467-2107 -->
+                                                   <!-- <br/>904-741-4057 -->
                                                 </td>
                                             </tr>
                                             <tr>
