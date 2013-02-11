@@ -205,8 +205,6 @@ if ($_SERVER["HTTP_HOST"] == "blackhorsecarriers.com") {
 
                             <div class="emplink"><a href="/safety_dinner_2011.php">2011 President's Safety Awards</a></div>
                             <div class="" style="margin-left:10px">
-                                <!--<div style="font-size:8pt;">John&nbsp;Cushner&nbsp;-&nbsp;Tully,&nbsp;NY</div>
-                                <div style="font-size:8pt;">Bob&nbsp;Hipple&nbsp;-&nbsp;Lancaster,&nbsp;PA</div>-->
                             </div>
 
                             <div class="emplink" style="margin-top:5px;">
