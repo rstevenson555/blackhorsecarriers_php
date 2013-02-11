@@ -59,9 +59,6 @@ if ($_SERVER["HTTP_HOST"] == "blackhorsecarriers.com") {
             <div id="main" >
 
                 <?php include 'navigation.php' ?>
-
-               <script src="scripts/home_animation.js" type="text/javascript"></script>
-
                 
                 <style  TYPE="text/css">
                     .bodyText {
@@ -129,11 +126,9 @@ if ($_SERVER["HTTP_HOST"] == "blackhorsecarriers.com") {
                             );
                     }
                 </style>
-                <!--<div class="bodyText articleText" style="height:600px;background-image: url(images/background.jpg);" >-->
                 <div class="bodyText articleText" style="background-color:white !important;" >
 
                     <div style="opacity:1.0" class="homeTableContainer">
-                        <!--<div class="nestedText" style="opacity:0.6;width:59¨7!important;background-color:#C8C2AC !important;">-->
                         <div class="nestedText" style="width:70%!important;background-color:transparent!important;">
 
                             <div style="margin-left:30px;">
@@ -146,7 +141,6 @@ if ($_SERVER["HTTP_HOST"] == "blackhorsecarriers.com") {
                                     significant fixed costs for resources that are
                                     not always
                                     required.</p>
-                                <!--<div style="float:left;"> -->
                                 <p style="float:left;">We can <a href="fleetreplacement.php">replace a private fleet</a>, or
                                     under-performing dedicated fleet
                                     with a transportation system that enhances and
@@ -162,30 +156,25 @@ if ($_SERVER["HTTP_HOST"] == "blackhorsecarriers.com") {
                                 <div class="outside_slide">
                                     <div class="truckshow" style="background-image:url('/images/truck_full_view.jpg');width:381px;height:259px;box-shadow:10px 10px 40px #233223;border:0px solid #628161;margin-top:20px;float:left;margin-right: 10px;border-radius: 5px 60px 5px 60px;"></div>
                                 </div>
-                                <!--10px 10px 40px #233223 7DA87D-->
-
 
                                 <p style="margin-top:0px;">Organizing and <span class="double_underline">
-                                        <a overlayShow="true" frameWidth="640"
-                                           frameHeight="360" rel="fancyvideo" href="http://www.youtube.com/watch?v=lNuNMGUj0dc"> <img style="border:0;" align="top" src="/images/film.gif"/>operating efficient transportation
+                                        <a data-ob="lightbox" href="http://www.youtube.com/watch?v=lNuNMGUj0dc">
+                                            <img style="border:0;" align="top" src="/images/film.gif"/>operating efficient transportation
                                             and distribution
                                             systems</a></span> with effective fleet sizing, routing and
                                     scheduling, plus
                                     effective training, supervision and motivation of
                                     our work force are
-                                    what we do best.</p>
+                                    what we do best.
+                                </p>
 
                                 <p style="float:left;">We have broad transportation experience across
                                     many industries,
                                     Contract Carriage / Logistics /Driver Leasing and
                                     Private Fleet
                                     Replacement.</p>
-                                
-
                                                             <p>&nbsp;<br/><br/></p>
-
                                                                                         <p>&nbsp;<br/><br/></p>
-
                             </div>
                         </div>
 
@@ -195,7 +184,6 @@ if ($_SERVER["HTTP_HOST"] == "blackhorsecarriers.com") {
 
                             <div class="quickLinkSectionImage">
                                 
-                                <!--<a href="bhcnews.php"><img border="0" src="images/minookagoldsmall.jpg"/></a>-->
                                 <a href="/safety_dinner_2011.php"><img broder="0" src="images/2011_DOY_small.jpg"/></a>
                                 <div>
                                     <a href="/safety_dinner_2011.php">2011 President's Safety Awards Dinner</a>
@@ -215,28 +203,11 @@ if ($_SERVER["HTTP_HOST"] == "blackhorsecarriers.com") {
                                 <a href="/ftworth.php">Ft Worth TX start-up</a>
                             </div>
 
-                            <!--<div class="emplink"><a href="/presidentaward2010.php">2010 Presidents Award</a></div>
-                            <div class="" style="margin-left:10px">
-                                <div style="font-size:8pt;">Jose&nbsp;Morales&nbsp;-&nbsp;Batavia,&nbsp;IL</div>
-                                <div style="font-size:8pt;">Jeff&nbsp;Aungst&nbsp;-&nbsp;Hinckley,&nbsp;OH</div>
-                            </div>-->
                             <div class="emplink"><a href="/safety_dinner_2011.php">2011 President's Safety Awards</a></div>
                             <div class="" style="margin-left:10px">
                                 <!--<div style="font-size:8pt;">John&nbsp;Cushner&nbsp;-&nbsp;Tully,&nbsp;NY</div>
                                 <div style="font-size:8pt;">Bob&nbsp;Hipple&nbsp;-&nbsp;Lancaster,&nbsp;PA</div>-->
                             </div>
-
-                            <!--
-                            John Cushner - Tully, NY, 1st Place Manager of the Year
-Bob Hipple - Lancaster, PA, 2nd Place Manager of the Year
-                            -->
-                            
-                           <!-- <div class="emplink" style="margin-top:5px;">
-                                <a href="/terminalmanager2010.php">Terminal Manager of&nbsp;the&nbsp;Year&nbsp;2010</a>
-                            </div>
-                            <div class="emplinks" style="margin-top:5px;">
-                                <div style="font-size:8pt;">Suzzette&nbsp;Schroeder&nbsp;<br/>Batavia,&nbsp;IL</div>
-                            </div>-->
 
                             <div class="emplink" style="margin-top:5px;">
                                 <a href="/plymouthteam.php">Plymouth MI Team</a>
@@ -267,7 +238,6 @@ Bob Hipple - Lancaster, PA, 2nd Place Manager of the Year
                             <a overlayShow="true" frameWidth="640"
                                frameHeight="360" rel="fancyvideo" href="http://www.youtube.com/watch?v=lNuNMGUj0dc">Product Scanning Video</a>
                             
-
                         </div>
                         
                     </div>
@@ -279,18 +249,6 @@ Bob Hipple - Lancaster, PA, 2nd Place Manager of the Year
             </div>
             
         </div>
-       <script language="javascript" type="text/javascript">
-//            $(function(){
-//                $('#news-container').vTicker({
-//                    speed: 500,
-//                    pause: 3000,
-//                    animation: 'fade',
-//                    mousePause: false,
-//                    showItems: 3
-//                });
-//            });
-        </script>
-        
         
     </body>
 </html>
