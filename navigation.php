@@ -4,22 +4,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 <script type="text/javascript"  src="scripts/jquery.pngFix.pack.js"></script>
 
-<!-- video player for youtube -->
-<script type="text/javascript"  src="scripts/jquery.fancybox-1.0.0.js"></script>
-<script type="text/javascript"  src="scripts/swfobject.js"></script>
-<link rel="stylesheet" type="text/css" href="css/fancybox/fancy.css"/>
-
-
-<script type="text/javascript">
-    $(document).ready(function () {
-        $('a[rel*="fancyvideo"]').fancybox({
-            overlayShow: true,
-            frameWidth:640,
-            frameHeight:360
-        });
-				
-    });
-</script>
+<script type="text/javascript" src="orangebox/js/orangebox.min.js"></script>
+<link rel="stylesheet" href="orangebox/css/orangebox.css" type="text/css" />
 
 <style  TYPE="text/css">
     .nav-news li {
@@ -37,7 +23,6 @@
                     <a target="_blank" href="http://graphicon4promos-blackhorsestore.com/">Black Horse Store</a>
                 </li>
                 <li>
-                   <!-- <a href="mailto:info@blackhorsecarriers.com">Contact Us</a>-->
                    <a href="http://www.blackhorsecarriers.com/contact_us.php">Contact Us</a>
                 </li>
                 <li>
@@ -51,7 +36,6 @@
             <div class="frame">
                 <ul class="nav">
                     <li class="home">
-                        <!-- <a href="/">Home<br/>&nbsp;</a> -->
                     </li>
                     <!-- services -->
                     <li >
@@ -141,9 +125,7 @@
                                                 <div>View the organization of Black Horse Carriers along with contact information.</div>
                                             </li>
                                             <li >
-                                                <!--<div style="margin-bottom:10px;">Locations</div> -->
                                                 <div  >
-                                                    <!--<div class="loctitle">Find a location near you.  Search by State.</div>-->
                                                     <div class="loctitie">
                                                         <a href="/findnearestloc.php">Find a Terminal Location</a>
                                                     </div>
@@ -198,10 +180,6 @@
                                         <div class="category-list">
                                             <div>
                                                 <ul class="nav-drop-list">
-<!--                                                    <li>
-                                                        <a class="nav-drop-link"
-                                                           href="http://www.blackhorsecarriers.com/presidentaward2011.php">'11 Presidents Award</a>
-                                                    </li>-->
 
                                                     <li>
                                                         <a style="font-size:9pt;line-height:14px;height:32px!important;" class="nav-drop-link"
@@ -262,12 +240,6 @@
                                         </div>
                                         <ul class="nav-news">
                                             
-                                            <!--<li>
-                                                <div>
-                                                    <a href="http://www.blackhorsecarriers.com/plymouthteam.php">Ft Worth, TX</a>
-                                                </div>
-                                                <div>Ft Worth TX start-up</div>
-                                            </li>-->
                                             <li>
                                                 <div>
                                                     <a href="http://www.blackhorsecarriers.com/plymouthteam.php">Plymouth, MI</a>
@@ -283,10 +255,8 @@
                                             
                                             <li>
                                                 <div>
-                                                    <!--<a href="http://www.blackhorsecarriers.com/bhcnews.php">Gerry Niedert Accepts Recognition</a>-->
                                                     <a href="http://www.blackhorsecarriers.com/schneider.php">Black Horse Carriers Accepts Award</a>
                                                 </div>
-                                                <!--<div>Gerry Niedert accepts 2009 Carrier of the Year Award from Doug Frank, General Manager of Schneider Logistics, Inc. Shared Services Div. </div>-->
                                                 <div>2012 Carrier of the Year</div>
                                             </li>
                                         </ul>
@@ -303,7 +273,6 @@
                         <div class="nav-drop shift-drop">
                             <div class="t"></div>
                             <div class="c">
-                                <!-- <div class="drop-columns either"> -->
                                 <div class="drop-columns">
 
                                     <div class="frame column-3 wide">
@@ -352,7 +321,7 @@
                                             </li>
                                             <li>
                                                 <div>
-                                                    <a target="_blank" rel="fancyvideo" style="line-height:14px;" href="http://www.youtube.com/watch?v=lNuNMGUj0dc">
+                                                    <a target="_blank" style="line-height:14px;" data-ob="lightbox" href="http://www.youtube.com/watch?v=lNuNMGUj0dc">
                                                         <img style="border:0;" align="top"  src="/images/film.gif"/>Product Scanning - Video</a>
                                                 </div>
                                             </li>
@@ -368,7 +337,6 @@
 
                 </ul>
                 <!-- <div class="search"/> -->
-                <!--logo-->
                 <strong class="logo"><a href="http://www.blackhorsecarriers.com/index.php">http://www.blackhorsecarriers.com</a></strong>
             </div>
         </div>
