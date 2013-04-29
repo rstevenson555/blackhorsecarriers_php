@@ -136,11 +136,11 @@
                                             <tr>
                                                 <td style="vertical-align: top;">
                                                     <ul>
-                                                        <li><font style="font-weight:bold;">Jennifer Thomas-Johnson</font></li>
+                                                        <li><font style="font-weight:bold;">Mike Kuzlik</font></li>
                                                     </ul>
                                                 </td>
                                                 <td style="vertical-align: top;">
-                                                    <font style="font-weight: bold;" >CFO</font>
+                                                    <font style="font-weight: bold;" >Controller</font>
                                                 </td>
                                                 <td style="vertical-align: top;">
                                                     <font style="font-weight:bold;">630-690-8227</font>
@@ -151,7 +151,14 @@
                                                     <ul>
                                                         <li>Mike Arzich<br>
                                                         </li>
-                                                        <ul><li><font style="font-weight: bold;">Ed Burgess</font></li></ul>
+                                                        <ul>
+                                                            <li>
+                                                                <font style="font-weight: bold;">Ed Burgess</font>
+                                                            </li>
+                                                            <li>
+                                                                <font style="font-weight: bold;">Pat O’Docharty</font>
+                                                            </li>
+                                                        </ul>
 
                                                     </ul>
 
@@ -160,11 +167,14 @@
                                                     <!--<span style="font-weight: bold;">VP Operations - East Division</span>-->
                                                     <span style="font-weight: bold;">VP Operations – Retail / Industrial Group</span>
                                                     <br/><span>Area Manager</span>
+                                                    <br/><span>Area Manager</span>
 
                                                 </td>
                                                 <td style="vertical-align: top"><b>630-690-8669</b>
                                                     <br>
                                                     217-247-5330
+                                                    <br>
+                                                    210-380-6885
                                                 </td>
                                             </tr>
                                             <tr>
@@ -194,6 +204,18 @@
                                             <tr>
                                                 <td style="vertical-align: top;">
                                                     <ul>
+                                                        <li style="font-weight:bold;">Peter Nester</li>
+                                                    </ul>
+                                                </td>
+                                                <td style="vertical-align: top; font-weight: bold;">
+                                                    Fleet Manager
+                                                </td>
+                                                <td style="vertical-align: top; font-weight:bold;">630-690-8900 x224</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td style="vertical-align: top;">
+                                                    <ul>
                                                         <li style="font-weight:bold;">Terri Niedert</li>
                                                     </ul>
                                                 </td>
@@ -214,3 +236,4 @@
 
     </body>
 </html>
+
