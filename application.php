@@ -2380,7 +2380,7 @@ function get_locations() {
 
                                 <tr>
                                     <td><font size="-1">Upload Resume</font></td>
-                                    <td><font size="-1"><input type="text" class="appl_inputs" name="uploadedfile" type="file"></font></td>
+                                    <td><font size="-1"><input type="file" class="appl_inputs" name="uploadedfile"></font></td>
                                 </tr>
 
 
